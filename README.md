@@ -1,4 +1,4 @@
-# FIIX TAX - Frontend
+# FIIZ TAX - Frontend
 
 FIIX TAX is an online tool for calculating all taxes and
 fees related to stock market transactions.
