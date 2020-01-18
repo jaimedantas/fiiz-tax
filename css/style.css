@@ -743,8 +743,10 @@ body {
 }
 
 #notfound {
+    background: url('../images/bk_site.jpg') center center no-repeat;
     position: relative;
     height: 100vh;
+
 }
 
 #notfound .notfound {
