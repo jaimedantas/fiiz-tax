@@ -195,6 +195,9 @@ img{
     padding-left:1em;
     border-bottom:solid 1px #dce2e5
 }
+.strip2{
+    padding-top: 2em;
+}
 .strip-alt{
     background:#f6f8f9
 }
@@ -472,7 +475,7 @@ form a:hover{
 }
 #footer{
     color:#999;
-    padding:3.5em 0 3em
+    padding:2em 0 3em
 }
 #footer a .glyph-item{
     color:#999;
@@ -830,4 +833,132 @@ body {
         font-size: 112px;
     }
 }
+
+
+/* Social Icons */
+
+.social-icon {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-icon:before,
+.social-icon:after {
+    content: " ";
+    display: table;
+}
+
+.social-icon:after {
+    clear: both;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin: 0px 4px;
+}
+
+.social-icon li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    border: 0 none;
+    border-radius: 4px;
+    font-size: 30px;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon li a:hover {
+    box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.33);
+}
+
+.social-icon li a .fa {
+    line-height: inherit;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.google-plus {
+    background-color: #dd4b39;
+}
+
+.instagram {
+    background-color: #464545;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.pinterest {
+    background-color: #bd081c;
+}
+
+.youtube {
+    background-color: #cd201f;
+}
+
+.vimeo {
+    background-color: #1ab7ea;
+}
+
+.dribbble {
+    background-color: #ea4c89;
+}
+
+.behance {
+    background-color: #1769ff;
+}
+
+.flickr {
+    background-color: #ff0084;
+}
+
+.tumblr {
+    background-color: #35465c;
+}
+
+.foursquare {
+    background-color: #f94877;
+}
+
+.github {
+    background-color: #333333;
+}
+
+.skype {
+    background-color: #00aff0;
+}
+
+img {
+    max-width: 100%;
+}
+a.btn.btn-success {
+    border-radius: 0;
+    border: 0;
+    background: #3765af;
+    font-size: 1.5em;
+}
+
+h6 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 2.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 
