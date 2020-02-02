@@ -1,6 +1,6 @@
 # FIIZ TAX - Website
 
-FIIX TAX is an online tool for calculating all taxes and
+FIIZ TAX is an online tool for calculating all taxes and
 fees related to stock market transactions.
 
 ![](images/bk_novo.png)
