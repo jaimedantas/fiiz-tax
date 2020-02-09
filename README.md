@@ -3,7 +3,7 @@
 FIIZ TAX is an online tool for calculating all taxes and
 fees related to stock market transactions.
 
-![](images/bk_novo.png)
+![](images/new/bk_novo.png)
 
 This tool is up and running [here](https://jaimedantas.com/fiiz-tax/).
 
