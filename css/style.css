@@ -8839,8 +8839,8 @@ textarea.form-control {
 
 #ftco-loader {
   position: fixed;
-  width: 96px;
-  height: 96px;
+  width: 100px;
+  height: 100px;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -8879,54 +8879,26 @@ textarea.form-control {
   opacity: 1; }
 
 #ftco-loader .circular {
-  -webkit-animation: loader-rotate 2s linear infinite;
-  animation: loader-rotate 2s linear infinite;
-  position: absolute;
-  left: calc(50% - 24px);
-  top: calc(50% - 24px);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   display: block;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg); }
+  background: url(../images/new/icon_transparent_small.png) bottom center no-repeat;
+  width: 100px;
+  height: 100px;
+  transform-origin: center center;
+  position: fixed;
+}
 
 #ftco-loader .path {
-  stroke-dasharray: 1, 200;
+  stroke-dasharray: 1, 600;
   stroke-dashoffset: 0;
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
-  stroke-linecap: round; }
+   }
 
-@-webkit-keyframes loader-rotate {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-
-@keyframes loader-rotate {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-
-@-webkit-keyframes loader-dash {
-  0% {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0; }
-  50% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -35px; }
-  100% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px; } }
-
-@keyframes loader-dash {
-  0% {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0; }
-  50% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -35px; }
-  100% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px; } }
 
 
 
