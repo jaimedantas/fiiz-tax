@@ -7678,6 +7678,11 @@ h1, h2, h3, h4, h5,
     margin-top: -250px;
   }
 }
+@media (min-height: 1024px) {
+  .ftco-section-featured {
+    margin-top: -240px;
+  }
+}
   .ftco-section-featured .container {
     position: relative; }
     .ftco-section-featured .container .owl-carousel .owl-stage-outer {
@@ -8022,6 +8027,15 @@ textarea.form-control {
   @media (max-width: 767.98px) {
     .ftco-section {
       padding: 6em 0; } }
+
+.ftco-section2 {
+  padding-top: 2em;
+  padding-bottom: 0;
+  position: relative; }
+@media (max-width: 767.98px) {
+  .ftco-section2 {
+    padding-top: 6em;
+    padding-bottom: 0; } }
 
 .ftco-bg-dark {
   background: #3c312e; }
