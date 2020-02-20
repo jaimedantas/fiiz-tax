@@ -7783,11 +7783,24 @@ h1, h2, h3, h4, h5,
 
 .ftco-section-parallax {
   position: relative; }
-  .ftco-section-parallax .parallax-img {
+  .ftco-section-parallax .parallax-img-jaime {
     background-size: cover;
-    position: relative;
     padding: 15em 0;
-    background: url(../images/new/bk_site_blue.jpg) center center no-repeat;}
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .89;
+    background: #448ef6;
+    background: -moz-linear-gradient(0deg, #c19ec7 0%, #29bae4 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(3%, #c19ec7), color-stop(0%, #29bae4));
+    background: -webkit-linear-gradient(0deg, #c19ec7 0%, #29bae4 100%);
+    background: -o-linear-gradient(0deg, #c19ec7 0%, #29bae4 100%);
+    background: -ms-linear-gradient(0deg, #c19ec7 0%, #29bae4 100%);
+    background: linear-gradient(0deg, #c19ec7 0%, #82abd9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 ); }
+
 
 
 .block-3 .text, .block-3 .image {
